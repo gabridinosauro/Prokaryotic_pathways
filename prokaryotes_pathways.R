@@ -2,7 +2,7 @@ library(KEGGREST)
 org <- data.frame(keggList("organism"))
 prokaryotes = org[grep("Prokaryotes", org$phylogeny), ]
 pathways_tot = vector()
-for (i in 3651:length(prokaryotes$organism))
+for (i in 1:length(prokaryotes$organism))
 {
   try({
     pathways = keggLink("pathway", prokaryotes[i,2])

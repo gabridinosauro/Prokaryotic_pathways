@@ -12,5 +12,6 @@ for (i in 1:length(prokaryotes$organism))
     pathways_tot = unique(pathways_tot) })
 }
 pathways_tot
+pathways_tot = paste0("ko", pathways_tot)
 #write.table(pathways_tot, "pathways_prok.txt")
 

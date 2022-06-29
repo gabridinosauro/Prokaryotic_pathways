@@ -1,5 +1,5 @@
 # Prokaryotic_pathways
-R code to extract KEGG pathways numbers present in prokaryotes, and therefore exclude those from Ekaryotes.
+R code to extract KEGG pathways numbers present in prokaryotes, and therefore exclude those from Eukaryotes.
 
 Even if you use Prokaryotic profiles when scanning for KO orthologs in your list amminoacid sequences, different KOs can belong to different pathways.
 It can be useful to get rid of eukaryotic related pathways before doing further anlyses. 
